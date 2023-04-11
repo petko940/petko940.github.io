@@ -43,30 +43,37 @@ body {
 }
 
 .about-text {
-    padding: 1px 1px 10px 5px;
-    padding-left: 10px;
+    padding: 1px 1px 10px 10px;
     font-family: OpenSymbol, sans-serif;
     max-width: 600px;
-    border: 1px solid rgba(204, 204, 204, 0.62);
-    border-radius: 1px;
     margin-left: -170px;
     margin-top: 70px;
     line-height: 1.3;
     color: #003140;
-
 }
 
 
 .about-image img {
     float: right;
-    margin-top: -230px;
-    margin-right: 120px;
+    margin-top: -270px;
+    margin-right: 20px;
     transition: filter 0.8s ease-in-out, transform 0.8s;
 }
 
+@media (max-width: 1080px) {
+    .about-image img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-image img {
+        width: 10%;
+    }
+}
+
 .about-image :hover {
-    transform: scale(1.3);
-    filter: grayscale(0%);
+    transform: scale(1.2);
 }
 
 .certificates-section {
