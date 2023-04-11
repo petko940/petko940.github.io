@@ -60,18 +60,6 @@ body {
     transition: filter 0.8s ease-in-out, transform 0.8s;
 }
 
-@media (max-width: 1080px) {
-    .about-image img {
-        width: 20%;
-    }
-}
-
-@media (max-width: 768px) {
-    .about-image img {
-        width: 10%;
-    }
-}
-
 .about-image :hover {
     transform: scale(1.2);
 }
