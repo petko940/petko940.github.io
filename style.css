@@ -54,7 +54,7 @@ body {
 .about-image {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .about-image img {
@@ -96,7 +96,7 @@ body {
     padding: 60px;
     text-align: center;
     color: #004b64;
-    height: 100vh;
+    height: 80vh;
 }
 
 .contact-images img {
