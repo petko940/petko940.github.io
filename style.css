@@ -110,7 +110,7 @@ body {
     transform: scale(1.4);
     filter: grayscale(0%) brightness(110%);
     animation: moveImage 1s ease-in-out;
-    box-shadow: 1px 1px 30px rgb(31, 31, 31);
+    box-shadow: 1px 1px 1px rgb(0, 37, 58);
 }
 
 @keyframes moveImage {
