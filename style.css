@@ -127,13 +127,14 @@ body {
 
 .bord {
     background-color: #dcdcdc;
-    height: 180px;
+    height: 240px;
     width: 650px;
     align-content: center;
     text-align: center;
     padding: 60px;
     transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;;
     margin: 50px auto auto;
+    border-radius: 1.5vi;
 }
 
 .bord:hover {
@@ -150,8 +151,23 @@ h2 {
 }
 
 .gmail {
-    margin-top: -100px;
+    margin-top: 10px;
     margin-right: 350px;
+}
+
+.download_cv {
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: inline-block;
+    background-color: #3c3c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.download_cv:hover {
+    background-color: #4f4f4f;
 }
 
 footer {
@@ -159,4 +175,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
+    margin-top: 140px; /* increase the margin-top value to move the footer further down */
+    position: absolute;
+    left: 0;
+    right: 0;
 }
