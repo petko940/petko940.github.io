@@ -18,12 +18,13 @@
     <h1>About me</h1>
     <div class="about-text" id="about-text">
         <p>
-            My name is Petko Todorov.
-            Learning Python has been an incredible journey for me,
-            and I'm always excited to discover new things about the language.
-            My next goal is to expand my knowledge of Python to include web development.
-            With its powerful libraries and frameworks, Python is a great language for
-            creating dynamic, responsive, and feature-rich websites.
+            My name is <span id="name"></span>
+            <br>
+            My journey through Python has been exhilarating, constantly unveiling new dimensions of this versatile
+            language. As a certified Django developer, I'm primed to take on web development challenges. Python's
+            powerful libraries make crafting dynamic, responsive websites an exciting endeavor. I'm here to weave code
+            into innovative web experiences while also developing software.
+
         </p>
     </div>
 </div>
@@ -39,10 +40,16 @@
         </h1>
     </div>
     <div class="certificates-image" id="certificates-image">
-        <img src="images/basic.png" alt="basic" width="270" height="400">
-        <img src="images/fundamentals.png" alt="fundamentals" width="270" height="400">
-        <img src="images/advanced.png" alt="advanced" width="270" height="400">
-        <img src="images/oop.png" alt="oop" width="270" height="400">
+        <div class="top-row">
+            <img src="images/basic.png" alt="basic" width="270" height="400">
+            <img src="images/fundamentals.png" alt="fundamentals" width="270" height="400">
+            <img src="images/advanced.png" alt="advanced" width="270" height="400">
+        </div>
+        <div class="bottom-row">
+            <img src="images/oop.png" alt="oop" width="270" height="400">
+            <img src="images/basic_web.png" alt="basic_web" width="270" height="400">
+            <img src="images/python%20web%20framework.png" alt="python_web" width="270" height="400">
+        </div>
     </div>
 </div>
 
@@ -83,6 +90,28 @@
     </footer>
 
 </div>
+
+<script>
+    const nameSpan = document.getElementById('name');
+    const yourName = 'Petko Todorov';
+    let currentIndex = 0;
+
+    function addNextCharacter() {
+        if (currentIndex < yourName.length) {
+            nameSpan.textContent += yourName[currentIndex];
+            currentIndex++;
+            setTimeout(addNextCharacter, 150);
+        } else {
+            const dotSpan = document.createElement('span');
+            dotSpan.textContent = '.';
+            dotSpan.style.animation = 'blink 1s infinite';
+            nameSpan.appendChild(dotSpan);
+        }
+    }
+
+    addNextCharacter();
+</script>
+
 </body>
 </html>
 

@@ -15,6 +15,7 @@ body {
     width: 100%;
     background-color: #333;
     line-height: 2;
+    z-index: 1000;
 }
 
 .nav-buttons a {
@@ -32,6 +33,18 @@ body {
     background-color: #6c6c6c;
     color: #00b2df;
     font-size: 30px;
+}
+
+#name {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
 }
 
 .about-section {
@@ -71,7 +84,26 @@ body {
     padding: 60px;
     text-align: center;
     color: #333;
-    height: 90vh;
+    height: 140vh;
+}
+
+.certificates-image .top-row,
+.certificates-image .bottom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+
+.certificates-image .top-row img,
+.certificates-image .bottom-row img {
+    margin: -35px 20px 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.certificates-image .top-row img:hover,
+.certificates-image .bottom-row img:hover {
+    transform: scale(1.1);
 }
 
 .text {
