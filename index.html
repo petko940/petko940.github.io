@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <div class="nav-buttons">
-    <a href="#about">About</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" onclick="scrollToSection('about')">About</a>
+    <a href="javascript:void(0);" onclick="scrollToSection('certificates')">Certificates</a>
+    <a href="javascript:void(0);" onclick="scrollToSection('contact')">Contact</a>
 </div>
 
 <div class="about-section" id="about">
@@ -108,8 +109,15 @@
             nameSpan.appendChild(dotSpan);
         }
     }
-
     addNextCharacter();
+
+    function scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    }
 </script>
 
 </body>
