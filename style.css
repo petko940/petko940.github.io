@@ -6,8 +6,6 @@ body {
     background-color: #adadad;
 }
 
-
-
 .nav-buttons {
     display: flex;
     justify-content: center;
@@ -208,7 +206,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: 140px; /* increase the margin-top value to move the footer further down */
+    margin-top: 80px; 
     position: absolute;
     left: 0;
     right: 0;
