@@ -41,9 +41,15 @@ body {
 }
 
 @keyframes blink {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 .about-section {
@@ -206,7 +212,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    margin-top: 80px; 
+    margin-top: 80px;
     position: absolute;
     left: 0;
     right: 0;
