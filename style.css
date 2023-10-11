@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
 body {
     margin: 0;
     padding: 0;
@@ -183,7 +185,6 @@ h2 {
     color: #003140;
     margin-top: -50px;
     margin-left: 190px;
-    text-align-all: left;
     font-family: Rubik, serif;
 }
 
@@ -216,4 +217,26 @@ footer {
     position: absolute;
     left: 0;
     right: 0;
+}
+
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; /* Initially hidden */
+}
+
+.sticky-button a {
+    text-decoration: none;
+    color: #fff; /* Link text color */
+}
+
+/* Show the button when scrolling */
+.sticky-button.active {
+    display: block;
 }
