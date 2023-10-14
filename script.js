@@ -1,17 +1,61 @@
 document.addEventListener('DOMContentLoaded', function () {
   const stickyButton = document.querySelector('.sticky-button');
-
-  stickyButton.addEventListener('click', function () {
-    scrollToTop();
-  });
+  let isButtonVisible = false;
 
   // Show the sticky button when the user scrolls down
   window.addEventListener('scroll', function () {
-    if (window.scrollY > 200) { // Adjust the value as needed
-      stickyButton.classList.add('active');
-    } else {
-      stickyButton.classList.remove('active');
+    if (window.scrollY > 200 && !isButtonVisible) {
+      fadeIn(stickyButton);
+      isButtonVisible = true;
+    } else if (window.scrollY <= 200 && isButtonVisible) {
+      fadeOut(stickyButton);
+      isButtonVisible = false;
     }
+  });
+
+  function fadeIn(element) {
+    element.style.opacity = 0;
+    element.style.display = 'block';
+    let opacity = 0;
+    const duration = 200; // Adjust the duration as needed
+    const interval = 10;
+    const increment = interval / duration;
+
+    const fade = function () {
+      opacity += increment;
+      element.style.opacity = opacity;
+
+      if (opacity >= 1) {
+        clearInterval(fadeInterval);
+      }
+    };
+
+    element.style.opacity = opacity;
+    const fadeInterval = setInterval(fade, interval);
+  }
+
+  function fadeOut(element) {
+    let opacity = 1;
+    const duration = 200; // Adjust the duration as needed
+    const interval = 10;
+    const decrement = interval / duration;
+
+    const fade = function () {
+      opacity -= decrement;
+      element.style.opacity = opacity;
+
+      if (opacity <= 0) {
+        element.style.display = 'none';
+        clearInterval(fadeInterval);
+      }
+    };
+
+    element.style.opacity = opacity;
+    const fadeInterval = setInterval(fade, interval);
+  }
+
+  stickyButton.addEventListener('click', function () {
+    scrollToTop();
   });
 
   function scrollToTop() {
