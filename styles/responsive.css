@@ -1,4 +1,4 @@
-@media (max-width: 1080px) {
+@media (max-width: 1000px) {
     .nav-buttons a,
     .nav-buttons a:hover  {
         font-size: 4em;
@@ -27,5 +27,6 @@
     .contact-section .contact-logos .cv-middle a {
         padding: 1.8em 3.5em; 
     }
+
 
 }
