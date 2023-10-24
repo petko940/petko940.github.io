@@ -1,3 +1,36 @@
+// filled name in span
+document.addEventListener('DOMContentLoaded', function () {
+  const nameSpan = document.querySelector('.name');
+  const yourName = 'Petko Todorov';
+  let currentIndex = 0;
+
+  function addNextCharacter() {
+    if (currentIndex < yourName.length) {
+      nameSpan.textContent += yourName[currentIndex];
+      currentIndex++;
+      setTimeout(addNextCharacter, 150);
+    } else {
+      const dotSpan = document.createElement('span');
+      dotSpan.textContent = '.';
+      dotSpan.style.animation = 'blink 1s infinite';
+      nameSpan.appendChild(dotSpan);
+    }
+  }
+  addNextCharacter();
+});
+
+// scroll sections
+function scrollToSection(className) {
+  const sections = document.getElementsByClassName(className);
+  sections[0].scrollIntoView({
+    behavior: 'smooth',
+    block: 'start'
+  });
+}
+
+
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const stickyButton = document.querySelector('.sticky-button');
   let isButtonVisible = false;
@@ -76,4 +109,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
     requestAnimationFrame(scrollStep);
   }
+
 });
+
+function showImage(newSrc) {
+  let overlay = document.getElementById("overlay");
+  let overlayImage = document.getElementById("overlay-image");
+
+  overlay.style.display = "block";
+  overlayImage.src = newSrc;
+}
+
+function hideImage() {
+  let overlay = document.getElementById("overlay");
+  let overlayImage = document.getElementById("overlay-image");
+
+  overlay.style.display = "none";
+  overlayImage.src = ""; 
+}
+
+
+
+

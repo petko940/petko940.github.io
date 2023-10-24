@@ -1,131 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Petko Todorov</title>
     <link rel="shortcut icon" href="images/python.ico" type="image/x-icon">
     <link rel="icon" href="images/python.ico" type="image/x-icon">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
 
-<div class="nav-buttons">
-    <a href="javascript:void(0);" onclick="scrollToSection('about')">About</a>
-    <a href="javascript:void(0);" onclick="scrollToSection('certificates')">Certificates</a>
-    <a href="javascript:void(0);" onclick="scrollToSection('contact')">Contact</a>
-</div>
+    <header class="nav-buttons">
+        <a href="javascript:void(0);" onclick="scrollToSection('about-section')">About</a>
+        <a href="javascript:void(0);" onclick="scrollToSection('certificates-section')">Certificates</a>
+        <a href="javascript:void(0);" onclick="scrollToSection('contact-section')">Contact</a>
+    </header>
 
-<div class="about-section" id="about">
-    <h1>About me</h1>
-    <div class="about-text" id="about-text">
-        <p>
-            My name is <span id="name"></span>
-            <br>
-            My journey through Python has been exhilarating, constantly unveiling new dimensions of this versatile
-            language. As a certified Django developer, I'm primed to take on web development challenges. Python's
-            powerful libraries make crafting dynamic, responsive websites an exciting endeavor. I'm here to weave code
-            into innovative web experiences while also developing software.
-
-        </p>
-    </div>
-</div>
-
-<div class="about-image" id="about-image">
-    <img src="images/image.gif" alt="img" width="300">
-</div>
-
-<div class="certificates-section" id="certificates">
-    <div class="text" id="text">
-        <h1>
-            Certificates
-        </h1>
-    </div>
-    <div class="certificates-image" id="certificates-image">
-        <div class="top-row">
-            <img src="images/basic.png" alt="basic" width="270" height="400">
-            <img src="images/fundamentals.png" alt="fundamentals" width="270" height="400">
-            <img src="images/advanced.png" alt="advanced" width="270" height="400">
-        </div>
-        <div class="bottom-row">
-            <img src="images/oop.png" alt="oop" width="270" height="400">
-            <img src="images/basic_web.png" alt="basic_web" width="270" height="400">
-            <img src="images/python%20web%20framework.png" alt="python_web" width="270" height="400">
-        </div>
-    </div>
-</div>
-
-<div class="contact-section" id="contact">
-    <h1>Contact</h1>
-
-    <div class="contact-images" id="contact-images">
-        <div class="bord">
-
-            <a href="https://www.facebook.com/petko0/" target="_blank"><img src="images/contact/fb.png"
-                                                                            alt="Facebook" width="80"
-                                                                            height="80"></a>
-
-            <a href="https://github.com/petko940" target="_blank">
-                <img src="images/contact/github.png" alt="Github" width="80" height="80"></a>
-
-            <a href="https://www.linkedin.com/in/petko0/" target="_blank">
-                <img src="images/contact/in.png" alt="linkedin" width="80" height="80"></a>
-
-            <a href="https://discord.com/users/zenox#4522" target="_blank">
-                <img src="images/contact/discord.png" alt="discord" width="80" height="80"></a>
-
-            <a href="cv/petko_todorov_cv.pdf" download class="download_cv">
-                Download CV </a>
-
-            <div class="gmail">
-                <img src="images/contact/gmail.png" alt="Gmail" width="80" height="65">
+    <div class="image-bg">
+        <section class="about-section">
+            <h1>About me</h1>
+            <article class="about-text">
+                <p>
+                    My name is <span class="name"></span>
+                    <br>
+                    My journey through Python has been exhilarating, constantly unveiling new dimensions of this
+                    versatile
+                    language. As a certified Django developer, I'm primed to take on web development challenges.
+                    Python's
+                    powerful libraries make crafting dynamic, responsive websites an exciting endeavor. I'm here to
+                    weave
+                    code into innovative web experiences while also developing software.
+                </p>
+            </article>
+            <div class="about-image">
+                <img src="images/image.gif" alt="image.gif" class="grayscale-gif">
             </div>
-            <h2>
-                p.todorov1015@gmail.com
-            </h2>
+        </section>
 
+        <section class="certificates-section">
+            <h1>Certificates</h1>
+            <div class="certificates-image">
+                <img src="images/basic.png" alt="" onclick="showImage('images/sertificates more info/basic-more-info.jpeg')">
+                <img src="images/fundamentals.png" alt="" onclick="showImage('images/sertificates more info/fundamentals-more-info.jpeg')">
+                <img src="images/advanced.png" alt="" onclick="showImage('images/sertificates more info/advance-more-info.jpeg')">
+                <img src="images/oop.png" alt="" onclick="showImage('images/sertificates more info/oop-more-info.jpeg')">
+                <img src="images/basic_web.png" alt="" onclick="showImage('images/sertificates more info/web-basic-more-info.jpeg')">
+                <img src="images/python web framework.png" alt="" onclick="showImage('images/sertificates more info/web-framework-more-info.jpeg')">
+            </div>
+        </section>
+
+        <div id="overlay" onclick="hideImage()">
+            <img id="overlay-image" src="" alt="">
         </div>
+
+        <section class="contact-section">
+            <h1>Contact</h1>
+
+            <div class="contact-logos">
+                <div class="logos-top">
+                    <a href="https://www.facebook.com/petko0/" target="_blank">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+
+                    <a href="https://github.com/petko940/" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/petko0/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://discordapp.com/users/zenox#4522/" target="_blank">
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                </div>
+
+                <div class="cv-middle">
+                    <a href="cv/petko_todorov_cv.pdf" download class="download_cv">
+                        Download CV
+                    </a>
+                </div>
+
+                <div class="email-bottom">
+                    <img src="images/contact/gmail.png" alt="" class="gray-email-img">
+                    <h3 id="email-text">p.todorov1015@gmail.com</h3>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <h5>&copy; 2023 Petko Todorov. All rights reserved.</h5>
+        </footer>
     </div>
 
-    <footer>
-        <p>&copy; 2023 Petko Todorov. All rights reserved.</p>
-    </footer>
-
-</div>
-
-<div class="sticky-button">
-    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
-</div>
-
-
-<script>
-    const nameSpan = document.getElementById('name');
-    const yourName = 'Petko Todorov';
-    let currentIndex = 0;
-
-    function addNextCharacter() {
-        if (currentIndex < yourName.length) {
-            nameSpan.textContent += yourName[currentIndex];
-            currentIndex++;
-            setTimeout(addNextCharacter, 150);
-        } else {
-            const dotSpan = document.createElement('span');
-            dotSpan.textContent = '.';
-            dotSpan.style.animation = 'blink 1s infinite';
-            nameSpan.appendChild(dotSpan);
-        }
-    }
-    addNextCharacter();
-
-    function scrollToSection(sectionId) {
-        const section = document.getElementById(sectionId);
-        section.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
-        });
-    }
-</script>
+    <div class="sticky-button">
+        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
 
 </body>
-</html>
 
+</html>
