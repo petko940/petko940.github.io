@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .nav-buttons a,
+    .nav-buttons a:hover  {
+        font-size: 4em;
+    }
+
+    .certificates-section .certificates-image {
+        width: 100%;
+    }
+
+    .certificates-section .certificates-image img {
+        width: 40%;
+    }
+
+    #overlay img {
+        width: 60%;
+    }
+
+    .contact-section .contact-logos i {
+        font-size: 5em;
+    }
+
+    .contact-section .contact-logos .email-bottom {
+        font-size: 2em;
+    }
+
+    .contact-section .contact-logos .cv-middle a {
+        padding: 1.8em 3.5em; 
+    }
+
+}
