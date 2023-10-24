@@ -5,6 +5,7 @@
 @import url("styles/contact.css");
 @import url("styles/footer.css");
 @import url("styles/certificates.css");
+@import url("styles/responsive.css");
 
 body {
     font-family: Verdana, sans-serif;
