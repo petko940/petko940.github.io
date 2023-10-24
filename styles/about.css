@@ -25,18 +25,18 @@
 }
 
 .about-section .about-image .grayscale-gif {
-    filter: grayscale(100%); 
-    transition: all 0.5s ease; 
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
 }
 
 .about-section .about-image:hover .grayscale-gif {
-    filter: grayscale(0%); 
+    filter: grayscale(0%);
     animation: gif-animation 2s linear infinite;
-    border-radius: 1em; 
+    border-radius: 1em;
 }
 
 .name {
-    color: #003140;
+    color: #18eced;
     font-weight: bold;
     font-size: 24px;
 }
@@ -55,6 +55,13 @@
     }
 }
 
+.about-text {
+    padding: 1em;
+    background-color: rgb(0, 0, 0, 0.3);
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
 .about-text p {
-    font-size: 1.2em;
+    font-size: 1.3em;
 }

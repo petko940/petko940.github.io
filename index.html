@@ -13,92 +13,98 @@
 
 <body>
 
-    <header class="nav-buttons">
-        <a href="javascript:void(0);" onclick="scrollToSection('about-section')">About</a>
-        <a href="javascript:void(0);" onclick="scrollToSection('certificates-section')">Certificates</a>
-        <a href="javascript:void(0);" onclick="scrollToSection('contact-section')">Contact</a>
-    </header>
+<header class="nav-buttons">
+    <a href="javascript:void(0);" onclick="scrollToSection('about-section')">About</a>
+    <a href="javascript:void(0);" onclick="scrollToSection('certificates-section')">Certificates</a>
+    <a href="javascript:void(0);" onclick="scrollToSection('contact-section')">Contact</a>
+</header>
 
-    <div class="image-bg">
-        <section class="about-section">
-            <h1>About me</h1>
-            <article class="about-text">
-                <p>
-                    My name is <span class="name"></span>
-                    <br>
-                    My journey through Python has been exhilarating, constantly unveiling new dimensions of this
-                    versatile
-                    language. As a certified Django developer, I'm primed to take on web development challenges.
-                    Python's
-                    powerful libraries make crafting dynamic, responsive websites an exciting endeavor. I'm here to
-                    weave
-                    code into innovative web experiences while also developing software.
-                </p>
-            </article>
-            <div class="about-image">
-                <img src="images/image.gif" alt="image.gif" class="grayscale-gif">
-            </div>
-        </section>
-
-        <section class="certificates-section">
-            <h1>Certificates</h1>
-            <div class="certificates-image">
-                <img src="images/basic.png" alt="" onclick="showImage('images/sertificates more info/basic-more-info.jpeg')">
-                <img src="images/fundamentals.png" alt="" onclick="showImage('images/sertificates more info/fundamentals-more-info.jpeg')">
-                <img src="images/advanced.png" alt="" onclick="showImage('images/sertificates more info/advance-more-info.jpeg')">
-                <img src="images/oop.png" alt="" onclick="showImage('images/sertificates more info/oop-more-info.jpeg')">
-                <img src="images/basic_web.png" alt="" onclick="showImage('images/sertificates more info/web-basic-more-info.jpeg')">
-                <img src="images/python web framework.png" alt="" onclick="showImage('images/sertificates more info/web-framework-more-info.jpeg')">
-            </div>
-        </section>
-
-        <div id="overlay" onclick="hideImage()">
-            <img id="overlay-image" src="" alt="">
+<div class="image-bg">
+    <section class="about-section">
+        <h1>About me</h1>
+        <article class="about-text">
+            <p>
+                My name is <span class="name"></span>
+                <br>
+                My journey through Python has been exhilarating, constantly unveiling new dimensions of this
+                versatile language. As a certified Django developer, I'm primed to take on web development challenges.
+                Python's powerful libraries make crafting dynamic, responsive websites an exciting endeavor. I'm here to
+                weave code into innovative web experiences while also developing software.
+                With a keen eye for aesthetics and a strong grasp of HTML and CSS, I ensure that every project I
+                undertake not only functions flawlessly but also looks visually captivating, creating memorable user
+                experiences.
+            </p>
+        </article>
+        <div class="about-image">
+            <img src="images/image.gif" alt="image.gif" class="grayscale-gif">
         </div>
+    </section>
 
-        <section class="contact-section">
-            <h1>Contact</h1>
+    <section class="certificates-section">
+        <h1>Certificates</h1>
+        <div class="certificates-image">
+            <img src="images/basic.png" alt=""
+                 onclick="showImage('images/sertificates more info/basic-more-info.jpeg')">
+            <img src="images/fundamentals.png" alt=""
+                 onclick="showImage('images/sertificates more info/fundamentals-more-info.jpeg')">
+            <img src="images/advanced.png" alt=""
+                 onclick="showImage('images/sertificates more info/advance-more-info.jpeg')">
+            <img src="images/oop.png" alt=""
+                 onclick="showImage('images/sertificates more info/oop-more-info.jpeg')">
+            <img src="images/basic_web.png" alt=""
+                 onclick="showImage('images/sertificates more info/web-basic-more-info.jpeg')">
+            <img src="images/python web framework.png" alt=""
+                 onclick="showImage('images/sertificates more info/web-framework-more-info.jpeg')">
+        </div>
+    </section>
 
-            <div class="contact-logos">
-                <div class="logos-top">
-                    <a href="https://www.facebook.com/petko0/" target="_blank">
-                        <i class="fa-brands fa-square-facebook"></i>
-                    </a>
+    <div id="overlay" onclick="hideImage()">
+        <img id="overlay-image" src="" alt="">
+    </div>
 
-                    <a href="https://github.com/petko940/" target="_blank">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
+    <section class="contact-section">
+        <h1>Contact</h1>
 
-                    <a href="https://www.linkedin.com/in/petko0/" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
+        <div class="contact-logos">
+            <div class="logos-top">
+                <a href="https://www.facebook.com/petko0/" target="_blank">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
 
-                    <a href="https://discordapp.com/users/zenox#4522/" target="_blank">
-                        <i class="fa-brands fa-discord"></i>
-                    </a>
-                </div>
+                <a href="https://github.com/petko940/" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
 
-                <div class="cv-middle">
-                    <a href="cv/petko_todorov_cv.pdf" download class="download_cv">
-                        Download CV
-                    </a>
-                </div>
+                <a href="https://www.linkedin.com/in/petko0/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
 
-                <div class="email-bottom">
-                    <img src="images/contact/gmail.png" alt="" class="gray-email-img">
-                    <h3 id="email-text">p.todorov1015@gmail.com</h3>
-                </div>
+                <a href="https://discordapp.com/users/zenox#4522/" target="_blank">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
             </div>
-        </section>
 
-        <footer>
-            <h5>&copy; 2023 Petko Todorov. All rights reserved.</h5>
-        </footer>
-    </div>
+            <div class="cv-middle">
+                <a href="cv/petko_todorov_cv.pdf" download class="download_cv">
+                    Download CV
+                </a>
+            </div>
 
-    <div class="sticky-button">
-        <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
-    </div>
+            <div class="email-bottom">
+                <img src="images/contact/gmail.png" alt="" class="gray-email-img">
+                <h3 id="email-text">p.todorov1015@gmail.com</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h5>&copy; 2023 Petko Todorov. All rights reserved.</h5>
+    </footer>
+</div>
+
+<div class="sticky-button">
+    <a href="#top"><i class="fa-solid fa-arrow-up"></i></a>
+</div>
 
 </body>
 

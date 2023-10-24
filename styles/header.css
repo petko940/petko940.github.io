@@ -10,7 +10,7 @@
 }
 
 .nav-buttons a {
-    color: #00b2df;
+    color: #18d7d2;
     text-decoration: none;
     padding: 10px;
     margin: 0 25px;
@@ -22,6 +22,6 @@
 
 .nav-buttons a:hover {
     background-color: #6c6c6c;
-    color: #00b2df;
+    color: #18d7d2;
     font-size: 2em;
 }
