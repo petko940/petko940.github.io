@@ -1,4 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("reset.css");
 @import url("styles/header.css");
 @import url("styles/about.css");
 @import url("styles/contact.css");
@@ -7,14 +8,11 @@
 
 body {
     font-family: Verdana, sans-serif;
-    /* background-image: url("images/bg.jpg");
-    background-size: cover;
-    background-repeat: repeat-y;
-    background-attachment: fixed; */
 }
 
 .image-bg {
     background-image: url("images/bg.jpg");
+    background-size: 100% 100%;
     background-repeat: repeat-y;
 }
 
@@ -30,7 +28,7 @@ body::after {
 }
 
 h1 {
-    color: #003140;
+    color: #aff2ff;
     text-align: center;
     font-size: 2em;
     padding-top: 3em;
