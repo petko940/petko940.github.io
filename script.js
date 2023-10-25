@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function () {
     element.style.opacity = 0;
     element.style.display = 'block';
     let opacity = 0;
-    const duration = 200; // Adjust the duration as needed
+    const duration = 50; // Adjust the duration as needed
     const interval = 10;
     const increment = interval / duration;
 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function fadeOut(element) {
     let opacity = 1;
-    const duration = 200; // Adjust the duration as needed
+    const duration = 100; // Adjust the duration as needed
     const interval = 10;
     const decrement = interval / duration;
 
@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function scrollToTop() {
     const startPosition = window.scrollY;
-    const duration = 200; // Adjust the duration as needed
+    const duration = 100; // Adjust the duration as needed
     const startTime = performance.now();
 
     function scrollStep(timestamp) {
