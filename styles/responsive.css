@@ -1,11 +1,12 @@
 @media (max-width: 1000px) {
+
     .nav-buttons a,
-    .nav-buttons a:hover  {
+    .nav-buttons a:hover {
         font-size: 4em;
     }
 
     body h1 {
-        margin-top: 2em;
+        margin-top: -30px;
         font-size: 4em;
     }
 
@@ -13,8 +14,7 @@
         max-width: 90%;
     }
 
-    .about-section
-    .certificates-section .certificates-image {
+    .about-section .certificates-section .certificates-image {
         width: 100%;
     }
 
@@ -35,10 +35,11 @@
     }
 
     .contact-section .contact-logos .cv-middle a {
-        padding: 1.8em 3.5em; 
+        padding: 1.8em 3.5em;
     }
 
-    .contact-section { 
+    .contact-section {
         min-height: 50vh;
     }
+
 }
