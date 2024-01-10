@@ -929,7 +929,7 @@ img {
 --------------------------- */
 
 .about-me-image {
-    border-radius: 5px;
+    border-radius: 1rem;
 }
 
 .aboutUs-container {
@@ -1433,6 +1433,19 @@ img {
 
 .footer_bottom span a:hover {
     color: #fff;
+}
+
+.footer-wrap {
+    display: flex;
+    gap: 15rem;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.footer-wrap img {
+    width: 40%;
+    height: auto;
+    border-radius: 1rem;
 }
 
 /* Animation Timers
@@ -2070,6 +2083,11 @@ div.mc-image {
         text-align: center;
     }
 
+    .navStyle ul {
+        display: flex;
+        flex-direction: column;
+    }
+
     .aboutUs-container {
         background-image: none;
     }
@@ -2188,9 +2206,15 @@ div.mc-image {
         float: right;
     }
 
+    /* .navStyle ul {
+        display: flex;
+        flex-direction: column;
+    } */
+
     .navStyle ul li {
         display: block;
         margin: 0px;
+        text-align: right;
     }
 
     .navStyle ul li:last-child {
