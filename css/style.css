@@ -2080,6 +2080,10 @@ div.mc-image {
         background-size: auto 59%;
         background-position-y: 150px;
     }
+
+    #clients .certifications a {
+        width: 40%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2159,6 +2163,10 @@ div.mc-image {
 
     #clients {
         padding: 40px 0;
+    }
+
+    #clients .certifications a {
+        width: 70%;
     }
 
     .client_logos ul li {
