@@ -2084,6 +2084,10 @@ div.mc-image {
     #clients .certifications a {
         width: 40%;
     }
+
+    #clients .certifications {
+        width: 90%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2163,6 +2167,10 @@ div.mc-image {
 
     #clients {
         padding: 40px 0;
+    }
+
+    #clients .certifications {
+        width: 90%;
     }
 
     #clients .certifications a {
