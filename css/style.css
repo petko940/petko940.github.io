@@ -1449,7 +1449,7 @@ img {
 }
 
 .footer-wrap img {
-    width: 30%;
+    width: 40%;
     height: auto;
     border-radius: 1rem;
 }
@@ -2081,6 +2081,10 @@ div.mc-image {
         background-position-y: 150px;
     }
 
+    .about-me-image {
+        display: none;
+    }
+
     #clients .certifications a {
         width: 43%;
     }
@@ -2104,6 +2108,10 @@ div.mc-image {
 
     .aboutUs-container {
         background-image: none;
+    }
+
+    .about-me-image {
+        display: none;
     }
 
     p {
@@ -2263,6 +2271,10 @@ div.mc-image {
         margin-bottom: 0px;
         float: initial;
         width: 100%;
+    }
+
+    .about-me-image {
+        display: none;
     }
 
     .team_area {
