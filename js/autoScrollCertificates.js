@@ -18,7 +18,7 @@ const splide = new Splide('.splide', {
     snap: true,
     perPage: perPage,
     autoScroll: {
-        speed: 0.001,
+        speed: 0.9,
     },
 });
 
