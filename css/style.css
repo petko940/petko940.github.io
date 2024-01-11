@@ -915,12 +915,12 @@ img {
 }
 
 .splide .splide__pagination li {
-    width: 35px;
+    width: 25px;
 }
 
 .splide .splide__pagination button {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: orange;
 }
 
@@ -2116,12 +2116,12 @@ div.mc-image {
     }
 
     .splide__track {
-        gap: 10px; 
-        overflow-x: auto; 
+        gap: 10px;
+        overflow-x: auto;
     }
 
     .splide__slide {
-        flex: 0 0 calc(50% - 10px); 
+        flex: 0 0 calc(50% - 10px);
     }
 }
 
@@ -2209,12 +2209,12 @@ div.mc-image {
     }
 
     .splide__track {
-        gap: 10px; 
-        overflow-x: auto; 
+        gap: 10px;
+        overflow-x: auto;
     }
 
     .splide__slide {
-        flex: 0 0 calc(70% - 10px); 
+        flex: 0 0 calc(70% - 10px);
     }
 
     .client_logos ul li {
@@ -2318,12 +2318,12 @@ div.mc-image {
     }
 
     .splide__track {
-        gap: 10px; 
-        overflow-x: auto; 
+        gap: 10px;
+        overflow-x: auto;
     }
 
     .splide__slide {
-        flex: 0 0 calc(90%); 
+        flex: 0 0 calc(90%);
     }
 }
 
