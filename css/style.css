@@ -894,7 +894,7 @@ img {
 }
 
 .splide__slide {
-    flex: 0 0 30%;
+    flex: 0 0 20%;
 }
 
 .splide__slide a {
@@ -2150,7 +2150,7 @@ div.mc-image {
     }
 
     .top_cont_outer {
-        height: 88vh;
+        height: 83vh;
     }
 
     .hero_section {
@@ -2214,7 +2214,7 @@ div.mc-image {
     }
 
     .splide__slide {
-        flex: 0 0 calc(70% - 10px);
+        flex: 0 0 calc(66% - 10px);
     }
 
     .client_logos ul li {
