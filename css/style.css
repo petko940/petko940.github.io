@@ -429,7 +429,7 @@ p {
 
 .top_cont_outer {
     position: relative;
-    height: 750px;
+    height: 100vh;
     background: url('../img/home2.jpg') no-repeat;
     background-size: cover;
 }
@@ -2150,7 +2150,7 @@ div.mc-image {
     }
 
     .top_cont_outer {
-        height: 420px;
+        height: 88vh;
     }
 
     .hero_section {
