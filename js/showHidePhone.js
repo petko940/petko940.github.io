@@ -3,6 +3,7 @@ function showHidePhoneNumber() {
     phoneNumberElement.addEventListener('click', () => {
         if (!phoneNumberElement.textContent.startsWith('+')) {
             phoneNumberElement.textContent = '+359 898 75 00 67';
+            phoneNumberElement.style.cursor = 'default';
             copyButton.removeAttribute('hidden');
         }
     })
