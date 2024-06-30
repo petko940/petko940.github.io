@@ -1351,7 +1351,8 @@ img {
 .social_links li {
     display: inline-block;
     margin-right: 4px;
-    border: 1px solid #757575;
+    border: 2px solid rgb(255, 185, 55, 0.6);
+    border-radius: 10px;
 }
 
 .social_links li a {
