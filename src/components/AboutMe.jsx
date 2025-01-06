@@ -8,12 +8,12 @@ function AboutMe() {
                 className="bg-[#969696] py-[4rem] w-auto mb-40"
             >
                 <div data-aos="fade-down">
-                    <h1 className='text-[#222222] text-3xl text-center pb-10'>
+                    <h1 className='text-[#222222] text-3xl text-center pb-10 select-none'>
                         Who Am I
                     </h1>
                 </div>
 
-                <div className='w-4/5 max-sm:w-11/12 max-md:w-5/6 mx-auto flex flex-wrap gap-5 justify-center'>
+                <div className='max-sm:w-11/12 max-md:w-5/6 max-xl:w-11/12 mx-auto flex max-lg:flex-wrap gap-5 justify-center'>
                     <div data-aos="fade-right" className='w-1/2 max-md:w-11/12 max-lg:w-11/12'>
                         <div className=''>
                             <h2 className='text-[#222222] text-2xl font-extrabold'>
