@@ -3,6 +3,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithub, faLinkedinIn, faDiscord } from '@fortawesome/free-brands-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-scroll';
+
 
 function Home() {
 
@@ -17,7 +20,7 @@ function Home() {
         <>
             <section
                 id="home"
-                className="bg-[url('/src/assets/home.jpg')] h-screen w-fit bg-cover bg-center bg-no-repeat flex-col items-center justify-center text-center text-white pt-[16vh]"
+                className="bg-[url('/src/assets/home.jpg')] h-screen w-auto bg-cover bg-center bg-no-repeat flex-col items-center justify-center text-center text-white pt-[16vh]"
             >
                 <div data-aos="zoom-in">
                     <h1 className="text-3xl font-bold uppercase pb-5">
@@ -64,9 +67,14 @@ function Home() {
                                     </li>
                                 </div>
                             </a>
-
                         </ul>
                     </div>
+                </div>
+
+                <div className="absolute bottom-0 left-1/2 transform text-4xl pb-16">
+                    <Link to="about-me" smooth={true} duration={700} offset={-70}>
+                        <FontAwesomeIcon icon={faArrowDown} fade />
+                    </Link>
                 </div>
             </section>
         </>
