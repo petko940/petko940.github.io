@@ -4,7 +4,7 @@ import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faGithub, faLinkedinIn, faDiscord } from '@fortawesome/free-brands-svg-icons';
 
-function Intro() {
+function Home() {
 
     useEffect(() => {
         AOS.init({
@@ -16,7 +16,8 @@ function Intro() {
     return (
         <>
             <section
-                className="bg-[url('/src/assets/home.jpg')] h-screen w-screen bg-cover bg-center bg-no-repeat flex-col items-center justify-center text-center text-white pt-[16vh]"
+                id="home"
+                className="bg-[url('/src/assets/home.jpg')] h-screen w-fit bg-cover bg-center bg-no-repeat flex-col items-center justify-center text-center text-white pt-[16vh]"
             >
                 <div data-aos="zoom-in">
                     <h1 className="text-3xl font-bold uppercase pb-5">
@@ -72,4 +73,4 @@ function Intro() {
     )
 };
 
-export default Intro;
+export default Home;
