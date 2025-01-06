@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { Link } from "react-scroll";
 function NavBar() {
     const [activeSection, setActiveSection] = useState('home');
 
@@ -21,58 +21,86 @@ function NavBar() {
         return () => observer.disconnect();
     }, []);
 
-    const handleClick = (id) => {
-        const section = document.getElementById(id);
-        if (section) {
-            section.scrollIntoView({ behavior: 'smooth' });
-        }
-    };
-
     return (
         <>
-            <nav>
-                <ul className="uppercase flex flex-row justify-center items-center gap-10 mb-15 h-24">
+            <nav className="sticky top-0 bg-white z-50">
+                <ul className="uppercase flex flex-row justify-center items-center gap-10 mb-15 h-20">
                     <li
-                        onClick={() => handleClick('home')}
                         className={`hover:cursor-pointer select-none ${activeSection === 'home' ? 'text-[#FFB21F]' : ''}`}
                     >
-                        Home
+                        <Link
+                            to="home"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                        >
+                            Home
+                        </Link>
                     </li>
                     <li
-                        onClick={() => handleClick('about-me')}
                         className={`hover:cursor-pointer select-none ${activeSection === 'about-me' ? 'text-[#FFB21F]' : ''}`}
                     >
-                        About me
+                        <Link
+                            to="about-me"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                        >
+                            About me
+                        </Link>
                     </li>
                     <li
-                        onClick={() => handleClick('skills')}
                         className={`hover:cursor-pointer select-none ${activeSection === 'skills' ? 'text-[#FFB21F]' : ''}`}
                     >
-                        Skills
+                        <Link
+                            to="skills"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                        >
+                            Skills
+                        </Link>
                     </li>
                     <li
-                        onClick={() => handleClick('projects')}
                         className={`hover:cursor-pointer select-none ${activeSection === 'projects' ? 'text-[#FFB21F]' : ''}`}
                     >
-                        Projects
+                        <Link
+                            to="projects"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                        >
+                            Projects
+                        </Link>
                     </li>
                     <li
-                        onClick={() => handleClick('certificates')}
                         className={`hover:cursor-pointer select-none ${activeSection === 'certificates' ? 'text-[#FFB21F]' : ''}`}
                     >
-                        Certificates
+                        <Link
+                            to="certificates"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                        >
+                            Certificates
+                        </Link>
                     </li>
                     <li
-                        onClick={() => handleClick('Contact')}
                         className={`hover:cursor-pointer select-none ${activeSection === 'contact' ? 'text-[#FFB21F]' : ''}`}
                     >
-                        Contact
+                        <Link
+                            to="contact"
+                            smooth={true}
+                            duration={500}
+                            offset={-70}
+                        >
+                            Contact
+                        </Link>
                     </li>
                 </ul>
             </nav>
         </>
     );
-
-};
+}
 
 export default NavBar;
