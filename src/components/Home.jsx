@@ -71,7 +71,7 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="absolute bottom-0 left-1/2 transform text-4xl pb-16">
+                <div className="absolute bottom-0 left-1/2 transform text-4xl pb-10">
                     <Link to="about-me" smooth={true} duration={700} offset={-70}>
                         <FontAwesomeIcon
                             icon={faArrowDown}
