@@ -10,7 +10,7 @@ function Skills() {
                 id='skills'
                 className="bg-[#454C63]">
 
-                <h1 className='text-5xl text-white text-center pt-20 pb-12 select-none'>
+                <h1 className='text-5xl text-white text-center pt-16 pb-12 select-none'>
                     Skills
                 </h1>
 
