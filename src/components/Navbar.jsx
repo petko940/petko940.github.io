@@ -32,7 +32,7 @@ function NavBar() {
                         <Link
                             to="home"
                             smooth={true}
-                            duration={500}
+                            duration={700}
                             offset={-70}
                         >
                             Home
@@ -44,7 +44,7 @@ function NavBar() {
                         <Link
                             to="about-me"
                             smooth={true}
-                            duration={500}
+                            duration={700}
                             offset={-70}
                         >
                             About me
@@ -56,7 +56,7 @@ function NavBar() {
                         <Link
                             to="skills"
                             smooth={true}
-                            duration={500}
+                            duration={700}
                             offset={-70}
                         >
                             Skills
@@ -68,7 +68,7 @@ function NavBar() {
                         <Link
                             to="projects"
                             smooth={true}
-                            duration={500}
+                            duration={700}
                             offset={-70}
                         >
                             Projects
@@ -80,7 +80,7 @@ function NavBar() {
                         <Link
                             to="certificates"
                             smooth={true}
-                            duration={500}
+                            duration={700}
                             offset={-70}
                         >
                             Certificates
@@ -92,7 +92,7 @@ function NavBar() {
                         <Link
                             to="contact"
                             smooth={true}
-                            duration={500}
+                            duration={700}
                             offset={-70}
                         >
                             Contact
