@@ -25,11 +25,11 @@ function Projects() {
         <>
             <section id='projects'>
 
-                <div data-aos="zoom-in">
-                    <h1 className='text-4xl text-black text-center py-12 select-none'>
-                        Projects
-                    </h1>
-                </div>
+                <h1 className='text-4xl text-black text-center py-12 select-none'
+                    data-aos="zoom-in"
+                >
+                    Projects
+                </h1>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
                     {projects.map((project, index) => (

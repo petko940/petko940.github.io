@@ -114,11 +114,13 @@ function Certificates() {
     return (
         <section id="certificates" className='bg-[#333333]'>
 
-            <div data-aos="fade-left">
-                <h1 className='text-4xl text-white font-semibold text-center py-10 select-none'>
-                    Certificates
-                </h1>
-            </div>
+
+            <h1 className='text-4xl text-white font-semibold text-center py-10 select-none'
+                data-aos="zoom-in"
+            >
+                Certificates
+            </h1>
+
 
             <div className="splide">
                 <div className="splide__track">

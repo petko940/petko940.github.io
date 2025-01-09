@@ -7,15 +7,15 @@ function AboutMe() {
                 id="about-me"
                 className="bg-[#969696] py-[6rem] w-auto"
             >
-                <div data-aos="fade-down">
-                    <h1 className='text-[#222222] text-5xl text-center pb-10 select-none'>
-                        Who Am I
-                    </h1>
-                </div>
+                <h1 className='text-[#222222] text-5xl text-center pb-10 select-none'
+                    data-aos="fade-down"
+                >
+                    Who Am I
+                </h1>
 
                 <div className='max-sm:w-11/12 max-md:w-[90%] max-lg:w-[95%] max-xl:w-[90%] w-5/6 mx-auto flex max-lg:flex-wrap gap-5 justify-center'>
-                    <div data-aos="fade-right" className='w-1/2 max-md:w-11/12 max-lg:w-11/12'>
-                        <div className=''>
+                    <div className='w-1/2 max-md:w-11/12 max-lg:w-11/12'>
+                        <div data-aos="fade-right">
                             <h2 className='text-[#222222] text-2xl font-extrabold'>
                                 Exploring the World with Python
                             </h2>
@@ -46,13 +46,11 @@ function AboutMe() {
                     </div>
 
                     <div data-aos="fade-left">
-                        <div>
-                            <img
-                                src={aboutImage}
-                                className='w-full max-w-[500px] max-sm:hidden h-auto object-contain max-md:order-2 rounded-2xl'
-                                alt="About Me"
-                            />
-                        </div>
+                        <img
+                            src={aboutImage}
+                            className='w-full max-w-[500px] max-sm:hidden h-auto object-contain max-md:order-2 rounded-2xl'
+                            alt="About Me"
+                        />
                     </div>
                 </div>
             </section>
