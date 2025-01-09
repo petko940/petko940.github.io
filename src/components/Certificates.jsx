@@ -112,10 +112,14 @@ function Certificates() {
 
 
     return (
-        <section id="certificates" className='bg-[#333333] '>
-            <h1 className='text-4xl text-white font-semibold text-center py-10 select-none'>
-                Certificates
-            </h1>
+        <section id="certificates" className='bg-[#333333]'>
+
+            <div data-aos="fade-left">
+                <h1 className='text-4xl text-white font-semibold text-center py-10 select-none'>
+                    Certificates
+                </h1>
+            </div>
+
             <div className="splide">
                 <div className="splide__track">
                     <ul className="splide__list certifications w-[66%]">
