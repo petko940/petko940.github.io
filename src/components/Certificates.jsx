@@ -122,7 +122,7 @@ function Certificates() {
 
             <div className="splide">
                 <div className="splide__track">
-                    <ul className="splide__list certifications w-[66%]">
+                    <ul className="splide__list certifications w-[66%] max-lg:w-[75%] max-md:w[77%] max-sm:w-[90%]">
                         {certificates.map((certificate, index) => (
                             <li className="splide__slide" key={index}>
                                 <a href={certificate.imgSrc} target="_blank">
