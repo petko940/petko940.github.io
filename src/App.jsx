@@ -1,6 +1,8 @@
 import './App.css'
 import { useEffect } from 'react'
 import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import Home from './components/Home'
 import NavBar from './components/NavBar'
 import AboutMe from './components/AboutMe'

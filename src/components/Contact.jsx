@@ -75,7 +75,7 @@ function Contact() {
                     <Social className='pt-0' />
                 </div>
 
-                <footer className='text-neutral-300 text-center pb-10 pt-3' data-aos="zoom-in">
+                <footer className='text-neutral-300 text-center py-5'>
                     © Petko Todorov &nbsp;
                     <a href="#" class="reload" title="Reload" className='text-[#FDB01D]'>
                         2025

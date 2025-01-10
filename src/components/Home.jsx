@@ -1,6 +1,4 @@
-import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faGithub, faLinkedinIn, faDiscord } from '@fortawesome/free-brands-svg-icons';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-scroll';
 import Social from './Social';

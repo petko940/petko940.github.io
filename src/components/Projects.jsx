@@ -36,6 +36,7 @@ function Projects() {
                         <div
                             key={index}
                             className="relative group overflow-hidden aspect-w-16 aspect-h-9"
+                            data-aos="zoom-in"
                         >
                             <img
                                 src={project.src}

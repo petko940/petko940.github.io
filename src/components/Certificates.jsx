@@ -113,8 +113,6 @@ function Certificates() {
 
     return (
         <section id="certificates" className='bg-[#333333]'>
-
-
             <h1 className='text-4xl text-white font-semibold text-center py-10 select-none'
                 data-aos="zoom-in"
             >
@@ -138,9 +136,7 @@ function Certificates() {
                     </ul>
                 </div>
             </div>
-            <div className='h-16'>
-
-            </div>
+            <div className='h-16'></div>
         </section>
     );
 };
