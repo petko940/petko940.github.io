@@ -22,19 +22,17 @@ function AboutMe() {
 
                             <div className='text-white text-lg'>
                                 <p className='py-5 indent-3'>
-                                    My journey through Python has equipped me with the skills to design and develop
-                                    outstanding web applications.
-                                    I bring a unique blend of technical expertise and creative vision to every
-                                    project, ensuring a seamless fusion
-                                    of functionality and aesthetics.
+                                    My journey as a developer has equipped me with the skills to design and develop
+                                    exceptional web applications that merge functionality with aesthetics. I bring a
+                                    unique blend of technical expertise and creative vision to every project, ensuring
+                                    innovative and user-focused solutions.
                                 </p>
                                 <p className='indent-3'>
-                                    In my capacity as a certified Python and Django developer, along with
-                                    proficiency in JavaScript and a creative design flair, I am enthusiastic about
-                                    crafting dynamic experiences. With a keen eye for aesthetics and a strong grasp
-                                    of HTML, CSS, and JavaScript, I ensure that every project I undertake not only
-                                    functions flawlessly but also looks visually captivating, creating memorable
-                                    user experiences.
+                                    As a certified Python and Django developer, with proficiency in JavaScript and React,
+                                    I am passionate about crafting dynamic and interactive user experiences. My expertise
+                                    extends to building visually captivating and responsive designs using HTML, CSS (Tailwind), and modern
+                                    JavaScript frameworks like React. I strive to ensure every project not only performs flawlessly
+                                    but also delivers a seamless and engaging user experience.
                                 </p>
                             </div>
                             <a href="../assets/cv/petko_todorov_cv.pdf" download="petko_todorov_cv.pdf" className='flex justify-center pt-5'>
