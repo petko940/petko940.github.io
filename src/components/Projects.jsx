@@ -41,7 +41,7 @@ function Projects() {
                             <img
                                 src={project.src}
                                 alt={project.alt}
-                                className="w-full h-full object-cover brightness-[70%] group-hover:brightness-50 transition-all duration-300"
+                                className="w-full h-full object-cover brightness-[50%] group-hover:brightness-75 transition-all duration-300"
                             />
                             <a
                                 href={project.githubLink}
