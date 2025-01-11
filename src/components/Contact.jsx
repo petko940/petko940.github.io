@@ -77,7 +77,9 @@ function Contact() {
 
                 <footer className='text-neutral-300 text-center py-5'>
                     © Petko Todorov &nbsp;
-                    <a href="#" class="reload" title="Reload" className='text-[#FDB01D]'>
+                    <a href=""
+                        onClick={() => { window.location.reload() }}
+                        className='text-[#FDB01D]'>
                         2025
                     </a>
                 </footer>
