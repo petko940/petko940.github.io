@@ -10,15 +10,15 @@ import bullsAndCowsProject from '../assets/projects/bulls_and_cows_project.png'
 
 function Projects() {
     const projects = [
-        { src: chatAppProject, title: 'ChatApp React', githubLink: 'https://github.com/petko940/ChatApp-React' },
-        { src: angularProject, title: 'Destination Spots', githubLink: 'https://github.com/petko940/Destinations-spots' },
-        { src: quizWebProject, title: 'Quiz App', githubLink: 'https://github.com/petko940/Quiz-web-app' },
-        { src: tetrisProject, title: 'Tetris', githubLink: 'https://github.com/petko940/Tetris' },
-        { src: fishermanProject, title: 'Fisherman Game', githubLink: 'https://github.com/petko940/Fisherman-Game' },
-        { src: basicRpgGameProject, title: 'Basic RPG', githubLink: 'https://github.com/petko940/basic-rpg-game' },
-        { src: weatherPythonProject, title: 'Weather', githubLink: 'https://github.com/petko940/Weather-python-project' },
-        { src: createNewPyJsFilesProject, title: 'Create New PY/JS Files', githubLink: 'https://github.com/petko940/make-new-py-js-files' },
-        { src: bullsAndCowsProject, title: 'Bulls and Cows', githubLink: 'https://github.com/petko940/Bulls-and-Cows' },
+        { src: chatAppProject, title: 'ChatApp React', githubLink: 'https://github.com/petko-todorov/ChatApp-React' },
+        { src: angularProject, title: 'Destination Spots', githubLink: 'https://github.com/petko-todorov/Destinations-spots' },
+        { src: quizWebProject, title: 'Quiz App', githubLink: 'https://github.com/petko-todorov/Quiz-web-app' },
+        { src: tetrisProject, title: 'Tetris', githubLink: 'https://github.com/petko-todorov/Tetris' },
+        { src: fishermanProject, title: 'Fisherman Game', githubLink: 'https://github.com/petko-todorov/Fisherman-Game' },
+        { src: basicRpgGameProject, title: 'Basic RPG', githubLink: 'https://github.com/petko-todorov/basic-rpg-game' },
+        { src: weatherPythonProject, title: 'Weather', githubLink: 'https://github.com/petko-todorov/Weather-python-project' },
+        { src: createNewPyJsFilesProject, title: 'Create New PY/JS Files', githubLink: 'https://github.com/petko-todorov/make-new-py-js-files' },
+        { src: bullsAndCowsProject, title: 'Bulls and Cows', githubLink: 'https://github.com/petko-todorov/Bulls-and-Cows' },
     ];
 
     return (

@@ -14,7 +14,7 @@ function Social() {
                     </div>
                 </a>
 
-                <a href="https://github.com/petko940/" target="_blank" className='hover:text-[#181717] duration-300'>
+                <a href="https://github.com/petko-todorov/" target="_blank" className='hover:text-[#181717] duration-300'>
                     <div data-aos="zoom-in" data-aos-delay="300">
                         <li className="border-2 border-[#FFB21F] w-14 h-14 rounded-2xl flex items-center justify-center">
                             <FontAwesomeIcon icon={faGithub} />
