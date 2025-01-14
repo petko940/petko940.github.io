@@ -35,7 +35,7 @@ function AboutMe() {
                                     but also delivers a seamless and engaging user experience.
                                 </p>
                             </div>
-                            <a href="../assets/cv/petko_todorov_cv.pdf" download="petko_todorov_cv.pdf" className='flex justify-center pt-5'>
+                            <a href="/cv/petko_todorov_cv.pdf" download="petko_todorov_cv.pdf" className='flex justify-center pt-5'>
                                 <button className="text-white text-xl py-2 px-6 border border-white rounded-md shadow-[0_0_5em_transparent] hover:bg-transparent hover:shadow-[0_0_0_white] hover:transition-all hover:duration-1000 hover:ease-in-out">
                                     Download CV
                                 </button>
