@@ -43,20 +43,22 @@ function Projects() {
                                 alt={project.alt}
                                 className="w-full h-full object-cover brightness-[50%] group-hover:brightness-75 transition-all duration-300"
                             />
-                            <a
-                                href={project.githubLink}
-                                target="_blank"
-                            >
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <h3 className="text-white text-3xl max-md:text-5xl max-md:group-hover:text-6xl text-center brightness-125 font-semibold transition-all duration-300 transform translate-y-6 group-hover:translate-y-2 group-hover:text-[#FFB21F] group-hover:text-5xl relative">
-                                        {project.title}
-                                    </h3>
-                                </div>
+                            <div className='absolute inset-x-12 inset-y-8 hover:border-2 hover:border-[#FFB21F] duration-75 rounded-xl'>
+                                <a
+                                    href={project.githubLink}
+                                    target="_blank"
+                                >
+                                    <div className="absolute inset-0 flex items-center justify-center">
+                                        <h3 className="text-white text-3xl max-md:text-5xl max-md:group-hover:text-6xl text-center brightness-125 font-semibold transition-all duration-300 transform translate-y-6 group-hover:translate-y-2 group-hover:text-[#FFB21F] group-hover:text-5xl relative">
+                                            {project.title}
+                                        </h3>
+                                    </div>
 
-                                <div className="absolute bottom-0 left-0 right-0 p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-lg font-medium">
-                                    Click to visit the project on GitHub.
-                                </div>
-                            </a>
+                                    <div className="absolute bottom-0 left-0 right-0 p-1 text-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-white text-lg font-medium">
+                                        Click to visit the project on GitHub.
+                                    </div>
+                                </a>
+                            </div>
                         </div>
                     ))}
                 </div>
